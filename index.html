@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Minimal React</title>
 
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.4.4/babel.min.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
     <script src="https://fb.me/react-15.0.1.min.js"></script>
@@ -28,7 +30,7 @@
 
             render() {
                 return (
-                    <div>{this.state.greeting}</div>
+                    <div className="greeting">{this.state.greeting}</div>
                 )
             }
         }
